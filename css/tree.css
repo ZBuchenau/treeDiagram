@@ -1,0 +1,38 @@
+html, body {
+  width: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.treeRow {
+  overflow-x: auto;
+}
+
+div#collapsibleTree {
+  height: 800px;
+  width: 1600px;
+  margin-right: auto;
+  border: .1rem solid black;
+  padding: 0;
+}
+
+svg.treeSvg {
+  overflow-x: scroll;
+  /*border: 5px solid orange;*/
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
