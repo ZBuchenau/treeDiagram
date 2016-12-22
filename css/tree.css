@@ -22,9 +22,9 @@ svg.treeSvg {
 }
 
 .node circle {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 3px;
+  fill: #e5e5e5;
+  stroke: rgba(30, 33, 35, 1);
+  stroke-width: 2px;
 }
 
 .node text {
@@ -33,6 +33,6 @@ svg.treeSvg {
 
 .link {
   fill: none;
-  stroke: #ccc;
-  stroke-width: 2px;
+  stroke: #ffd27f;
+  stroke-width: 1.5px;
 }
